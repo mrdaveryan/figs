@@ -1,0 +1,148 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1.5;
+	font-size:16px;
+	font-family: 'IM Fell Great Primer', serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	color:#A5C768;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MINE */
+a:hover{color:#b9df75;}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('/fonts/bebasneue-webfont.eot');
+    src: url('/fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/bebasneue-webfont.woff') format('woff'),
+         url('/fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('/fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.block{max-width:450px; padding:40px 15px; margin-left:auto; margin-right:auto; box-sizing:border-box;}
+.heading{text-transform:uppercase; font-size:3.2em; line-height:.74em; font-weight: 100; letter-spacing: 2; font-family:'bebas_neueregular', sans-serif;}
+.subhead{text-transform:uppercase; font-family:'bebas_neueregular', sans-serif; font-weight:100; font-size: 1.4em; line-height:.8em; letter-spacing: 1.5; padding:20px 0 16px 0;}
+.splash{text-align:center; padding-bottom:20px;}
+	.logo{width:300px; margin:20px 0 10px}
+	.splash-scroll{padding:20px 0 0; font-style:italic;}
+.intro{background:#3C5413 url(/images/hand.jpg) bottom right no-repeat; color:#fff; padding-bottom:90px;}
+	.intro .subhead{color:#A5C768;}
+.quote{font-weight:normal; background:url(/images/leaf.png) 30px 190px no-repeat; padding-bottom:60px;}
+	.sig{text-transform:uppercase; font-size:.65em;}
+.artists{background:url(/images/artists.jpg) 0 0 no-repeat; min-height:230px; padding:0; background-size:cover;}
+.details{padding-top:0;}
+	.details .heading{color:#fff; position:absolute; margin-top:-34px;}
+	.details-list{list-style-type:none;}
+		.details-list li{text-transform:uppercase; padding-top:15px; font-family:'bebas_neueregular', sans-serif; line-height:1.2em; font-size: 1.2em; letter-spacing: .5;}
+			.details-list li em{font-family:'IM Fell Great Primer', serif; font-size:.8em; display:block; line-height:normal; text-transform:none;}
+.contact{background:#4C4C4C; color:#fff; }
+	.contact .block{background:url(/images/merrywoman.jpg) bottom right no-repeat; min-height:320px;  padding-bottom:80px; padding-right:80px;}
+	.contact .subhead{color:#A5C768;}
+.follow{background:#9FC063;}
+	.follow .heading{margin-bottom:20px;}
+	.soc{margin-right:10px;}
+	.soc-img{width:55px; height:55px;}
+.party{background:url(/images/man.gif) left center  no-repeat; padding-top:100px; padding-left:90px; box-sizing:border-box; min-height:250px;}
+	.party .heading{letter-spacing:normal;}
+	
+@media (min-width: 700px) {
+	.intro{background-image:url(/images/hand-lrg.gif);}
+	.artists{background:url(/images/artists-lrg.jpg) 0 -80 no-repeat; min-height:330px; padding:0; background-size:cover;}
+	.quote{background-position:30px 170px;
+}
+@media (min-width: 900px) {
+	
+	.artists{ min-height:430px; background-size:cover; }
+}
+
